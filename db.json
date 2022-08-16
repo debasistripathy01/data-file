@@ -1,0 +1,22 @@
+{
+    "user":[
+        {
+            "name":"Dev",
+            "age" : 26
+        },
+        {
+            "name" : "rahul",
+            "age" : 13
+        }
+    ],
+    "oolala":[
+        {
+            "hakunaMatata" : "saksham",
+            "age" : 15
+        },
+        {
+            "hakunaMatata" : "bhugu",
+            "age" : 18
+        }
+    ]
+}
