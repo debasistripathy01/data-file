@@ -20,13 +20,6 @@
         }
     ],
     "todo":[
-        {
-            "task1" : "running",
-            "age" : 15
-        },
-        {
-            "task2" : "bhugu",
-            "age" : 18
-        }
+        
     ]
 }
