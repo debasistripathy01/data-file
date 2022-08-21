@@ -21,9 +21,12 @@
     ],
     "todo":[
         {
-            "Task 1" : "do something",
-            "status" : "false"
-        
+            "task1" : "running",
+            "age" : 15
+        },
+        {
+            "task2" : "bhugu",
+            "age" : 18
         }
     ],
     "loginSignup":[
