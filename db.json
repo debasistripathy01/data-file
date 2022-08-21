@@ -33,7 +33,7 @@
         {
             "username" : "bhugu",
             "password" : 13456
-        },
+        }
     
     ],
     "Products":[
@@ -41,6 +41,6 @@
             "name" : "dish",
             "price" : 230
         
-        },
+        }
     ]
 }
