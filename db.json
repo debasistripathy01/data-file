@@ -30,6 +30,13 @@
 
     ],
     "Products":[
+        {
+            "name" : "Puma",
+            "price" : 2000,
+            "description" : "Puma is good",
+            "image" : "https://www.image.com",
+            "id" : 1
+        }
         
     ]
 }
