@@ -34,7 +34,7 @@
             "name" : "Puma",
             "price" : 2000,
             "description" : "Puma is good",
-            "delivery" : ""02-03-2022",
+            "delivery" : ""02/03/2022",
             "image" : "https://www.image.com",
             "id" : 1
         }
