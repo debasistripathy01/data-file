@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+
+function Car (name, price){
+    this.name = name;
+    this.price = price;
+}
+
+function Truck(){
+    Car.call(this, "volvo", "12lac");
+    this.fuel = "diesel";
+}
+
+// console.log(new Truck().name);
+
+
+// let agge = 24;
+
+// console.log(`My age is ${age}`)
+
+let obj1 = {};
+let obj2 = {};
+// console.log(obj1 ==obj2);
+
+
+var person = ()=>{
+    var name = "Nitin";
+
+    return function (){
+        return name;
+    }
+}
+
+// console.log(person()());
+
+const numbers = [1,6,2,3,8];
+const max = Math.max.apply(null, numbers);
+// console.log(typeof undefined)
+
+
+let fun = (a, ...b)=>{
+    return a * b.length;
+}
+// console.log(fun(2, "michlea", "hellor"));
+
+
+// let a = 10;
+// {
+//     var a = 20;
+// }
+
+
+let str = "masai";
+let arr = [...str];
+// console.log(arr);
+
+var a;
+function x(){
+    a = 10;
+
+}
+
+// console.log(a)
+
+
+// var a = 1;
+// setTimeout(()=>{
+//     console.log(a);
+// }, 0);
+// for(let i=0; i < 10; i++){
+    
+// }
+// a++;
+
+// let person = {
+//     f_name: "Bajarangi",
+//     address:{
+//         street: "abc",
+//         pin : "456",
+//         state: odisha
+//     },
+
+// };
+
+
+// let obj = person;
+// console.log(20||10 && 0||11);
+
+const array = ["a", "b"];
+const elements = [0,1,2];
+
+array.push.apply(array, elements);
+console.log(array);
+</script>
+
+
